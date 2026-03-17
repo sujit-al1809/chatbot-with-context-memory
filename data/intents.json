@@ -1,0 +1,99 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi", "Hello", "Hey", "Good morning", "Good afternoon",
+                "Good evening", "What's up", "Howdy", "Greetings", "Hi there"
+            ],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi there! What would you like to talk about?",
+                "Hey! Nice to see you. What's on your mind?",
+                "Greetings! I'm here to help. What can I do for you?"
+            ]
+        },
+        {
+            "tag": "farewell",
+            "patterns": [
+                "Bye", "Goodbye", "See you later", "Take care",
+                "Good night", "See ya", "Have a good day", "Farewell"
+            ],
+            "responses": [
+                "Goodbye! It was nice chatting with you!",
+                "See you later! Feel free to come back anytime.",
+                "Take care! I'll remember our conversation for next time.",
+                "Bye! I've saved our chat context for when you return."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks", "Thank you", "That's helpful", "Appreciate it",
+                "Thanks a lot", "Thank you so much"
+            ],
+            "responses": [
+                "You're welcome! Is there anything else I can help with?",
+                "Happy to help! Let me know if you need anything else.",
+                "Glad I could assist! What else would you like to discuss?"
+            ]
+        },
+        {
+            "tag": "about_bot",
+            "patterns": [
+                "What are you?", "Who are you?", "What can you do?",
+                "Tell me about yourself", "What is your purpose?"
+            ],
+            "responses": [
+                "I'm a Conversational AI Chatbot with Contextual Memory! I can remember our past conversations, track topics we discuss, analyze sentiment, and provide context-aware responses. Try asking me something!",
+                "I'm an AI chatbot designed with contextual memory capabilities. I can remember what we've talked about, detect your intent and sentiment, and use past context to give better responses."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Help", "I need help", "Can you help me?",
+                "What can you help with?", "I'm stuck", "Assist me"
+            ],
+            "responses": [
+                "I'd be happy to help! Here's what I can do:\n• Remember our past conversations\n• Search through conversation history\n• Analyze sentiment and intent\n• Provide context-aware responses\n• Summarize conversations\nWhat would you like to explore?",
+                "Sure! I'm equipped with contextual memory, sentiment analysis, intent detection, and conversation summarization. Just start talking and I'll learn from our conversation!"
+            ]
+        },
+        {
+            "tag": "memory_query",
+            "patterns": [
+                "What do you remember?", "Do you remember",
+                "What did I tell you?", "What do you know about me?",
+                "Recall our conversation", "What have we discussed?"
+            ],
+            "responses": [
+                "Let me check my memory banks... {memory_context}",
+                "I remember several things from our conversations: {memory_context}",
+                "Here's what I recall: {memory_context}"
+            ]
+        },
+        {
+            "tag": "small_talk_weather",
+            "patterns": [
+                "How's the weather?", "What's the weather like?",
+                "Is it sunny?", "Is it raining?"
+            ],
+            "responses": [
+                "As an AI, I don't have access to real-time weather data, but I'd love to chat about anything else!",
+                "I can't check the weather, but I can remember your location preferences if you tell me where you are!"
+            ]
+        },
+        {
+            "tag": "small_talk_mood",
+            "patterns": [
+                "How are you?", "How do you feel?",
+                "Are you happy?", "How's it going?"
+            ],
+            "responses": [
+                "I'm doing great, thanks for asking! I enjoy having conversations and building memory. How are you?",
+                "I'm always ready for a good conversation! My contextual memory is sharp and ready. How about you?"
+            ]
+        }
+    ]
+}

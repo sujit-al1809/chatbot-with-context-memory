@@ -1,0 +1,21 @@
+{
+    "fallback_responses": [
+        "That's interesting! Tell me more about that.",
+        "I see! I'll remember that. What else would you like to discuss?",
+        "Thanks for sharing! I've noted that in my memory. Anything else?",
+        "Got it! I'm learning from our conversation. What's next?",
+        "Interesting point! I've stored that context for future reference.",
+        "I appreciate you sharing that. Let me know if you'd like to explore any topic further."
+    ],
+    "context_aware_templates": {
+        "with_memory": "Based on what I remember from our previous conversations: {context}. {response}",
+        "with_topic": "Since we were discussing {topic}, {response}",
+        "with_sentiment_shift": "I notice your mood seems {sentiment}. {response}",
+        "first_message": "Welcome! I'm your AI chatbot with contextual memory. I'll remember our conversations and use that context to help you better. What would you like to talk about?"
+    },
+    "error_responses": [
+        "I apologize, but I'm having trouble processing that. Could you rephrase?",
+        "I encountered a small hiccup. Could you try again?",
+        "Something went wrong on my end. Let me try to help you differently."
+    ]
+}
